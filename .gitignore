@@ -3,4 +3,9 @@ __pycache__/
 .ipynb_checkpoints/
 .ruff_cache/
 .DS_Store
-/data/
+/data/**
+!/data/**/
+!/data/.gitkeep
+!/data/raw/.gitkeep
+!/data/prepared/.gitkeep
+!/data/results/.gitkeep
